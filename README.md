@@ -32,6 +32,11 @@ snippet	| expand
 ----------------| -------------------------------------
 t	| $this->	
 configitem	| $this->config->item("configname")	
+view	| $this->load->view("name")
+library	| $this->load->library("name")
+helper	| $this->load->helper("name")
+model	| $this->load->model("name")
+database	| $this->load->database()
 benchmark	| $this->benchmark->	
 config	| $this->config->	
 controller	| $this->controller->	
