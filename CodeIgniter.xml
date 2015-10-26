@@ -1,0 +1,267 @@
+<templateSet group="CodeIgniter">
+  <template name="t" value="$this-&gt;$END$" description="$this-&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="CONFIGNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="configitem" value="$this-&gt;config-&gt;item(&quot;$CONFIGNAME$&quot;)$END$" description="$this-&gt;config-&gt;item(&quot;config&quot;)" toReformat="false" toShortenFQNames="true">
+    <variable name="CONFIGNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+ <template name="benchmark" value="$this-&gt;benchmark-&gt;$MEMBER$$END$" description="$this-&gt;benchmark-&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="MEMBER" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="true" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template> <template name="config" value="$this-&gt;config-&gt;$MEMBER$$END$" description="$this-&gt;config-&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="MEMBER" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="true" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template> <template name="controller" value="$this-&gt;controller-&gt;$MEMBER$$END$" description="$this-&gt;controller-&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="MEMBER" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="true" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template> <template name="hooks" value="$this-&gt;hooks-&gt;$MEMBER$$END$" description="$this-&gt;hooks-&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="MEMBER" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="true" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template> <template name="input" value="$this-&gt;input-&gt;$MEMBER$$END$" description="$this-&gt;input-&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="MEMBER" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="true" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template> <template name="lang" value="$this-&gt;lang-&gt;$MEMBER$$END$" description="$this-&gt;lang-&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="MEMBER" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="true" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template> <template name="load" value="$this-&gt;load-&gt;$MEMBER$$END$" description="$this-&gt;load-&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="MEMBER" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="true" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template> <template name="log" value="$this-&gt;log-&gt;$MEMBER$$END$" description="$this-&gt;log-&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="MEMBER" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="true" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template> <template name="output" value="$this-&gt;output-&gt;$MEMBER$$END$" description="$this-&gt;output-&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="MEMBER" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="true" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template> <template name="router" value="$this-&gt;router-&gt;$MEMBER$$END$" description="$this-&gt;router-&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="MEMBER" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="true" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template> <template name="security" value="$this-&gt;security-&gt;$MEMBER$$END$" description="$this-&gt;security-&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="MEMBER" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="true" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template> <template name="uri" value="$this-&gt;uri-&gt;$MEMBER$$END$" description="$this-&gt;uri-&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="MEMBER" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="true" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template> <template name="db" value="$this-&gt;db-&gt;$MEMBER$$END$" description="$this-&gt;db-&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="MEMBER" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="true" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template> <template name="dbforge" value="$this-&gt;dbforge-&gt;$MEMBER$$END$" description="$this-&gt;dbforge-&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="MEMBER" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="true" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template> <template name="dbutil" value="$this-&gt;dbutil-&gt;$MEMBER$$END$" description="$this-&gt;dbutil-&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="MEMBER" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="true" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template> <template name="calendar" value="$this-&gt;calendar-&gt;$MEMBER$$END$" description="$this-&gt;calendar-&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="MEMBER" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="true" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template> <template name="email" value="$this-&gt;email-&gt;$MEMBER$$END$" description="$this-&gt;email-&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="MEMBER" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="true" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template> <template name="encrypt" value="$this-&gt;encrypt-&gt;$MEMBER$$END$" description="$this-&gt;encrypt-&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="MEMBER" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="true" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template> <template name="encryption" value="$this-&gt;encryption-&gt;$MEMBER$$END$" description="$this-&gt;encryption-&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="MEMBER" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="true" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template> <template name="form_validation" value="$this-&gt;form_validation-&gt;$MEMBER$$END$" description="$this-&gt;form_validation-&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="MEMBER" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="true" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template> <template name="ftp" value="$this-&gt;ftp-&gt;$MEMBER$$END$" description="$this-&gt;ftp-&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="MEMBER" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="true" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template> <template name="image_lib" value="$this-&gt;image_lib-&gt;$MEMBER$$END$" description="$this-&gt;image_lib-&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="MEMBER" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="true" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template> <template name="migration" value="$this-&gt;migration-&gt;$MEMBER$$END$" description="$this-&gt;migration-&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="MEMBER" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="true" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template> <template name="pagination" value="$this-&gt;pagination-&gt;$MEMBER$$END$" description="$this-&gt;pagination-&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="MEMBER" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="true" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template> <template name="parser" value="$this-&gt;parser-&gt;$MEMBER$$END$" description="$this-&gt;parser-&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="MEMBER" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="true" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template> <template name="table" value="$this-&gt;table-&gt;$MEMBER$$END$" description="$this-&gt;table-&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="MEMBER" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="true" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template> <template name="trackback" value="$this-&gt;trackback-&gt;$MEMBER$$END$" description="$this-&gt;trackback-&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="MEMBER" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="true" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template> <template name="typography" value="$this-&gt;typography-&gt;$MEMBER$$END$" description="$this-&gt;typography-&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="MEMBER" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="true" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template> <template name="unit_test" value="$this-&gt;unit_test-&gt;$MEMBER$$END$" description="$this-&gt;unit_test-&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="MEMBER" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="true" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template> <template name="upload" value="$this-&gt;upload-&gt;$MEMBER$$END$" description="$this-&gt;upload-&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="MEMBER" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="true" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template> <template name="agent" value="$this-&gt;agent-&gt;$MEMBER$$END$" description="$this-&gt;agent-&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="MEMBER" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="true" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template> <template name="xmlrpc" value="$this-&gt;xmlrpc-&gt;$MEMBER$$END$" description="$this-&gt;xmlrpc-&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="MEMBER" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="true" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template> <template name="xmlrpcs" value="$this-&gt;xmlrpcs-&gt;$MEMBER$$END$" description="$this-&gt;xmlrpcs-&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="MEMBER" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="true" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template> <template name="zip" value="$this-&gt;zip-&gt;$MEMBER$$END$" description="$this-&gt;zip-&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="MEMBER" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="true" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template> <template name="cache" value="$this-&gt;cache-&gt;$MEMBER$$END$" description="$this-&gt;cache-&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="MEMBER" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="true" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template> <template name="session" value="$this-&gt;session-&gt;$MEMBER$$END$" description="$this-&gt;session-&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="MEMBER" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="true" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+</templateSet>
