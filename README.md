@@ -12,7 +12,7 @@ As programming becomes more easier of CodeIgniter (ver.3), I tried to add a rule
 > OS X: ~/Library/Preferences/&lt;product name&gt;&lt;version number&gt;/templates<br>
 
 > ex.) Windows<br>
-> C:\Users\ussername\.WebIde90\config\templates\CodeIgniter.xml
+> C:\Users\ussername\\.WebIde90\config\templates\CodeIgniter.xml
 
 [PhpStorm 9.0.0 Help Live Templates](https://www.jetbrains.com/phpstorm/help/live-templates.html "PhpStorm 9.0.0 Help Live Templates")
 
