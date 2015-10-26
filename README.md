@@ -4,7 +4,8 @@ Thanks to this feature, makes it very well assist the coding work.
 As programming becomes more easier of CodeIgniter (ver.3), I tried to add a rule of LiveTemplate.
 
 ###1. How to install.
-Please put the **CodeIgniter.xml** in the folder(see below.) .
+・Put the **CodeIgniter.xml** in the folder(see below.) .
+
 
 > Windows: &lt;your home directory&gt;\.&lt;product name&gt;&lt;version number&gt;\config\templates<br>
 > Linux: ~/.&lt;product name&gt;&lt;version number&gt;/config/templates<br>
@@ -15,6 +16,8 @@ Please put the **CodeIgniter.xml** in the folder(see below.) .
 
 [PhpStorm 9.0.0 Help Live Templates](https://www.jetbrains.com/phpstorm/help/live-templates.html "PhpStorm 9.0.0 Help Live Templates")
 
+
+・Another way,you can import **codeigniter_livetemplate.jar** from menu( File / import settings...).
 
 ###2. Functions
 
