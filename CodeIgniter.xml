@@ -11,6 +11,36 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+<template name="view" value="$this-&gt;load-&gt;view(&quot;$NAME$&quot;)$END$" description="$this-&gt;load-&gt;view(&quot;name&quot;)" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+<template name="library" value="$this-&gt;load-&gt;library(&quot;$NAME$&quot;)$END$" description="$this-&gt;load-&gt;library(&quot;name&quot;)" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+<template name="helper" value="$this-&gt;load-&gt;helper(&quot;$NAME$&quot;)$END$" description="$this-&gt;load-&gt;helper(&quot;name&quot;)" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+<template name="model" value="$this-&gt;load-&gt;model(&quot;$NAME$&quot;)$END$" description="$this-&gt;load-&gt;model(&quot;name&quot;)" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+<template name="database" value="$this-&gt;load-&gt;database()$END$" description="$this-&gt;load-&gt;database()" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+
  <template name="benchmark" value="$this-&gt;benchmark-&gt;$MEMBER$$END$" description="$this-&gt;benchmark-&gt;" toReformat="false" toShortenFQNames="true">
     <variable name="MEMBER" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <context>
