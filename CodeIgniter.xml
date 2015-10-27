@@ -1,6 +1,5 @@
 <templateSet group="CodeIgniter">
-  <template name="t" value="$this-&gt;$END$" description="$this-&gt;" toReformat="false" toShortenFQNames="true">
-    <variable name="CONFIGNAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="t" value="$this-&gt;" description="$this-&gt;" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
