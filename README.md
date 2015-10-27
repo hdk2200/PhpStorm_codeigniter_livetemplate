@@ -1,4 +1,4 @@
-## PhpStorm Live Template for CodeIgniter ver.3 (maybe work in ver.2) 
+## PhpStorm Live Template for CodeIgniter ver.3 (maybe work on ver.2) 
 Jetbrain PhpStorm (IntelliJ IDEA) has a Live Template function.
 Thanks to this feature, makes it very well assist the coding work.
 As programming becomes more easier of CodeIgniter (ver.3), I tried to add a rule of LiveTemplate.
