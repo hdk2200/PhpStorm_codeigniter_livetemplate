@@ -120,11 +120,8 @@ rule-greater_than_equal_to	| greater_than_equal_to[8]
 rule-less_than	| less_than[8]            
 rule-less_than_equal_to	| less_than_equal_to[8]   
 rule-in_list	| in_list[red,blue,green] 
-	
-
-
-
-
-
+rule-trim	            | trim
+rule-htmlspecialchars	| htmlspecialchars
+rule-urldecode	        | urldecode
 
 
