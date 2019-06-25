@@ -3,7 +3,7 @@ Jetbrain PhpStorm (IntelliJ IDEA) has a Live Template function.
 Thanks to this feature, makes it very well assist the coding work.
 As programming becomes more easier of CodeIgniter (ver.3), I tried to add a rule of LiveTemplate.
 
-###1. How to install.
+### 1. How to install.
 ・Put the **CodeIgniter.xml** and **CodeIgniter_validation_rules.xml** in the folder(see below.) .
 
 
@@ -19,13 +19,13 @@ As programming becomes more easier of CodeIgniter (ver.3), I tried to add a rule
 
 ・Another way,you can import **codeigniter_livetemplate.jar** from menu( File / import settings...).
 
-###2. Functions
+### 2. Functions
 
 Since it is troublesome to typeing "$this->", you can complete in the snippet.
 Just write a snippet and Code Completion (Ctrl + Space) or LiveTemplate "COMMAND (CTRL) + J.
 
 
-###3.support snippets.
+### 3.support snippets.
 
 #### CodeIgniter snippets.
 
